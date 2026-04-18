@@ -60,4 +60,9 @@ dependencies {
     implementation("androidx.room:room-ktx:$room_version")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.0")
+    // Background execution for Notifications
+    implementation("androidx.work:work-runtime-ktx:2.9.0")
+// Modern Jetpack Compose Widgets
+    implementation("androidx.glance:glance-appwidget:1.0.0")
+    implementation("androidx.compose.material:material-icons-extended")
 }
